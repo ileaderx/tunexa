@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "797168901280",
+    "firebase_url": "https://tunexa-a05a1-default-rtdb.firebaseio.com",
+    "project_id": "tunexa-a05a1",
+    "storage_bucket": "tunexa-a05a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797168901280:android:ad0819fe9d0a12ed7abdc5",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797168901280-887l35f0ba88fjvbijkji079h37e52bp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXNMsOwDsRbQY91F8JuKYIPk3fQxAUp0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797168901280-887l35f0ba88fjvbijkji079h37e52bp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

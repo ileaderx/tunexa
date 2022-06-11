@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/ilead/Desktop/Music App/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ilead/Desktop/tunexa/app/src/main/res/drawable/image_corner_radius.xml" value="0.1185" />
+        <entry key="..\:/Users/ilead/Desktop/tunexa/app/src/main/res/drawable/my_button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/ilead/Desktop/tunexa/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/ilead/Desktop/tunexa/app/src/main/res/layout/item.xml" value="0.1" />
+        <entry key="..\:/Users/ilead/Desktop/tunexa/app/src/main/res/layout/music_list.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/ilead/Desktop/tunexa/app/src/main/res/layout/player.xml" value="0.16983695652173914" />
       </map>
     </option>
   </component>
