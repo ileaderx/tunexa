@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.Tunexa;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
-import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -33,8 +32,12 @@ public class SongLVAdapter extends ArrayAdapter<DataModel> {
         DataModel dataModel = getItem(position);
 
         TextView titleTV = listitemView.findViewById(R.id.titleTV);
+        TextView artistTV = listitemView.findViewById(R.id.artistTV);
         ImageView imageIV = listitemView.findViewById(R.id.idIVimage);
-        titleTV.setText(dataModel.getTitle() + "\n" + dataModel.getArtist());
+
+
+        titleTV.setText(dataModel.getTitle());
+        artistTV.setText(dataModel.getArtist());
         Picasso.get().load(dataModel.getImage()).into(imageIV);
 
         listitemView.setOnClickListener(new View.OnClickListener() {
@@ -42,6 +45,7 @@ public class SongLVAdapter extends ArrayAdapter<DataModel> {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getContext(), "Item clicked is : " + dataModel.getTitle() +  " " + dataModel.getArtist(), Toast.LENGTH_SHORT).show();
+
             }
         });
             return listitemView;
